@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,16 +6,28 @@
 }
 .container {
   width: 1440px;
-  background-color: black;
   margin-inline: auto;
 }
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Bebas Neue", serif;
-  font-style: normal;
+  font-family: "Inter", serif;
+  position: fixed;
+  width: 1204px;
+  height: 43.5px;
+  top: 30px;
+  left: 118px;
+}
+.pinelogo {
+  width: 101px;
+  height: 35px;
+}
 
+.pinelogo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 nav a {
   color: white;
@@ -24,13 +37,17 @@ nav a {
   font-weight: 600;
   width: 100px;
   height: 22px;
-  margin-right: 20px;
+  margin-inline: 24px;
+  position: relative;
 }
 .language {
   background-color: white;
-  border-radius: 999px;
+  border-radius: 24px;
   border-width: 40px;
-  margin-right: 50px;
+  padding: 13px;
+  position: relative;
+  top: 3.5px;
+  left: 14px;
 }
 .hero {
   background-image: url(./pinetour-img/HeroImage.png);
@@ -45,7 +62,7 @@ nav a {
   justify-content: center;
   padding-top: 170px;
   font-family: "Bebas Neue", serif;
-  font-style: normal;
+  opacity: 0.5;
 }
 .awaits {
   display: flex;
@@ -55,7 +72,6 @@ nav a {
   margin: -40px;
   justify-content: center;
   font-family: "Bebas Neue", serif;
-  font-style: normal;
 }
 .on {
   display: flex;
@@ -63,8 +79,8 @@ nav a {
   font-weight: 900px;
   color: #ffffffcc;
   justify-content: center;
-  font-family: "Bebas Neue", serif;
-  font-style: normal;
+  font-family: "Hanuman", serif;
+  opacity: 80%;
 }
 .location {
   background-image: url(./pinetour-img/Location\ image.png);
@@ -76,24 +92,29 @@ nav a {
   flex-direction: row;
   justify-content: center;
 }
+.terkh img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .terkh {
-  background-image: url(./hover.img/Hover\ card\ image3.png);
-  background-position: center;
-  background-size: cover;
+background-image: url(./hover.img/Hover\ card\ image3.png);
+background-position: center;
+background-size: cover;
   width: 252px;
   height: 370px;
   margin-inline: 20px;
   display: flex;
   align-items: center;
   font-size: 37px;
-  font-weight: 400;
   line-height: 44.4px;
   text-align: center;
   color: #fdfdfecc;
-  box-shadow: 8px 8px 0px 0px #29728b40;
-  box-shadow: -8px -8px 0px 0px #1f72aa75;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
   border-radius: 40px;
   font-family: "Bebas Neue", serif;
+  text-shadow: 0px 4px 4.9px 0px #000000A6;
+
 }
 .amar {
   background-image: url(./hover.img/hover\ card\ image4Untitled.png);
@@ -105,14 +126,14 @@ nav a {
   display: flex;
   align-items: center;
   font-size: 37px;
-  font-weight: 400;
   line-height: 44.4px;
   text-align: center;
   color: #fdfdfecc;
-  box-shadow: 8px 8px 0px 0px #29728b40;
-  box-shadow: -8px -8px 0px 0px #1f72aa75;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
   border-radius: 40px;
   font-family: "Bebas Neue", serif;
+  text-shadow: 0px 4px 4.9px 0px #000000A6;
+
 }
 .khuvsgul {
   background-image: url(./hover.img/Hover\ card\ image4.png);
@@ -123,15 +144,16 @@ nav a {
   margin-inline: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 37px;
-  font-weight: 400;
   line-height: 44.4px;
   text-align: center;
   color: #fdfdfecc;
-  box-shadow: 8px 8px 0px 0px #29728b40;
-  box-shadow: -8px -8px 0px 0px #1f72aa75;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
   border-radius: 40px;
   font-family: "Bebas Neue", serif;
+  text-shadow: 0px 4px 4.9px 0px #000000A6;
+
 }
 .togoo {
   background-image: url(./hover.img/Hover\ card\ image.png);
@@ -142,18 +164,80 @@ nav a {
   margin-inline: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 37px;
-  font-weight: 400;
   line-height: 44.4px;
   text-align: center;
   color: #fdfdfecc;
-  box-shadow: 8px 8px 0px 0px #29728b40;
-  box-shadow: -8px -8px 0px 0px #1f72aa75;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
   border-radius: 40px;
   font-family: "Bebas Neue", serif;
+  text-shadow: 0px 4px 4.9px 0px #000000A6;
+
+}
+.terkh:hover {
+  background-color: black;
+  opacity: 30%;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  border-radius: 40px;
+  float: left;
 }
 .roadmap {
   background-image: url(./pinetour-img/Roadmap\ image.png);
   height: 1022px;
   width: 1440px;
+}
+.ub{
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+ background: rgba(238, 233, 217, 1);
+ padding-top: 30px;
+ padding-right: 30px;
+ padding-bottom: 30px;
+ font-size: 24px
+}
+.bulgan{
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background: rgba(139, 184, 193, 0.8);
+padding: 30px 0px 0px 0px;
+justify-content: space-between;
+font-size: 24px;
+
+}
+.arkhangai{
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background: rgba(170, 216, 215, 0.8);
+  padding: 30px 0px 0px 0px;
+  font-size: 24px;
+}
+.tsagaan{
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background: rgba(139, 192, 189, 0.8);
+ padding-top: 30px;
+ font-size: 24px;
+}
+.khuvsgul-lake{
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  background: rgba(151, 204, 224, 0.8);
+ padding-top: 30px;
+ font-size: 24px;
+}
+.location1{
+  font-family: "Inter", serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+text-align: left;
+font-size: 24px;
 }
