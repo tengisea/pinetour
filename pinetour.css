@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-* {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ *{ 
+margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+ }
 .container {
   width: 1440px;
   margin-inline: auto;
@@ -189,7 +189,14 @@ background-size: cover;
   height: 1022px;
   width: 1440px;
 }
-.ub{
+.left{
+  width:513px;
+height: 640px;
+gap: 20px;
+opacity: 0px;
+display: flex;
+}
+.hover{
   width: 513px;
   height: 112px;
   border-radius: 120px;
@@ -197,43 +204,76 @@ background-size: cover;
  padding-top: 30px;
  padding-right: 30px;
  padding-bottom: 30px;
- font-size: 24px
 }
-.bulgan{
+.hover2{
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background: rgba(139, 184, 193, 0.8);
-padding: 30px 0px 0px 0px;
-justify-content: space-between;
-font-size: 24px;
-
+ padding-top: 30px;
 }
-.arkhangai{
+.hover3{
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background: rgba(170, 216, 215, 0.8);
-  padding: 30px 0px 0px 0px;
-  font-size: 24px;
+ padding-top: 30px;
 }
-.tsagaan{
+.hover4{
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background: rgba(139, 192, 189, 0.8);
  padding-top: 30px;
- font-size: 24px;
 }
-.khuvsgul-lake{
+.hover5{
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background: rgba(151, 204, 224, 0.8);
  padding-top: 30px;
- font-size: 24px;
 }
-.location1{
+.ub{
+ font-family: "Inter", serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+display: flex;
+text-align: left;
+
+position: relative;
+left: 30px;
+}
+.bulgan{
+justify-content: space-between;
+font-family: "Inter", serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+text-align: left;
+}
+.arkhangai{
+  font-family: "Inter", serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+}
+.tsagaan{
+ font-family: "Inter", serif;
+ font-size: 24px;
+ font-weight: 500;
+ line-height: 29.05px;
+ text-align: left;
+}
+.khuvsgul-lake{
+ font-family: "Inter", serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+text-align: left;
+}
+.location{
   font-family: "Inter", serif;
 font-size: 24px;
 font-weight: 500;
@@ -241,3 +281,75 @@ line-height: 29.05px;
 text-align: left;
 font-size: 24px;
 }
+p{
+  font-family: "Montserrat", serif;;
+  display: flex`;
+font-size: 12px;
+line-height: 14.63px;
+text-align: left;
+
+}
+.pin1 {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .pin1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .pin2 {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .pin2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .pin3 {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .pin3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .pin4 {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .pin4 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .pin5 {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .pin5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .right{
+    position: relative;
+    width: 37px;
+height: 16px;
+top: 18px;
+left: 8px;
+font-family: "Montserrat", serif;
+font-size: 14px;
+color: black;
+background: rgba(247, 246, 243, 1);
+border-radius: 24px;
+  border-width: 40px;
+;
+  }
