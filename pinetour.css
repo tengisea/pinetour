@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
- *{ 
-margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
- }
+}
 .container {
   width: 1440px;
   margin-inline: auto;
@@ -13,11 +13,9 @@ header {
   align-items: center;
   justify-content: space-between;
   font-family: "Inter", serif;
-  position: fixed;
-  width: 1204px;
-  height: 43.5px;
-  top: 30px;
-  left: 118px;
+  background-image: url(./pinetour-img/HeroImage.png);
+  width: 1440px;
+  padding: 10px 20px 0px 20px;
 }
 .pinelogo {
   width: 101px;
@@ -91,265 +89,581 @@ nav a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
+  width: 1202px;
+  height: 370px;
+  top: 65px;
+  left: 119px;
+  gap: 10px;
 }
-.terkh img{
+.terkh img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 44px;
+}
+.amar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 44px;
+}
+.khuvsgul img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 44px;
+}
+.togoo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 44px;
 }
 .terkh {
-background-image: url(./hover.img/Hover\ card\ image3.png);
-background-position: center;
-background-size: cover;
   width: 252px;
   height: 370px;
   margin-inline: 20px;
-  display: flex;
-  align-items: center;
   font-size: 37px;
-  line-height: 44.4px;
   text-align: center;
+  line-height: 44.4px;
   color: #fdfdfecc;
-  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  box-shadow: 8px 8px 0px 0px rgba(41, 114, 139, 0.25),
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
   border-radius: 40px;
   font-family: "Bebas Neue", serif;
-  text-shadow: 0px 4px 4.9px 0px #000000A6;
-
+  text-shadow: 0px 4px 4.9px #000000a6;
+}
+.terkh-ug {
+  position: relative;
+  bottom: 240px;
 }
 .amar {
-  background-image: url(./hover.img/hover\ card\ image4Untitled.png);
-  background-position: center;
-  background-size: cover;
   width: 252px;
   height: 370px;
   margin-inline: 20px;
-  display: flex;
-  align-items: center;
   font-size: 37px;
-  line-height: 44.4px;
   text-align: center;
+  line-height: 44.4px;
   color: #fdfdfecc;
-  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  box-shadow: 8px 8px 0px 0px rgba(41, 114, 139, 0.25),
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
   border-radius: 40px;
   font-family: "Bebas Neue", serif;
-  text-shadow: 0px 4px 4.9px 0px #000000A6;
-
+  text-shadow: 0px 4px 4.9px #000000a6;
+}
+.amar-ug {
+  position: relative;
+  bottom: 240px;
 }
 .khuvsgul {
-  background-image: url(./hover.img/Hover\ card\ image4.png);
-  background-position: center;
-  background-size: cover;
   width: 252px;
   height: 370px;
   margin-inline: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 37px;
   line-height: 44.4px;
   text-align: center;
   color: #fdfdfecc;
-  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  box-shadow: 8px 8px 0px 0px rgba(41, 114, 139, 0.25),
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
   border-radius: 40px;
   font-family: "Bebas Neue", serif;
-  text-shadow: 0px 4px 4.9px 0px #000000A6;
-
+  text-shadow: 0px 4px 4.9px #000000a6;
+}
+.khuvsgul-ug {
+  position: relative;
+  bottom: 230px;
 }
 .togoo {
-  background-image: url(./hover.img/Hover\ card\ image.png);
-  background-position: center;
-  background-size: cover;
   width: 252px;
   height: 370px;
   margin-inline: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 37px;
-  line-height: 44.4px;
   text-align: center;
+  line-height: 44.4px;
   color: #fdfdfecc;
-  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+  box-shadow: 8px 8px 0px 0px rgba(41, 114, 139, 0.25),
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
   border-radius: 40px;
   font-family: "Bebas Neue", serif;
-  text-shadow: 0px 4px 4.9px 0px #000000A6;
-
+  text-shadow: 0px 4px 4.9px #000000a6;
+}
+.togoo-ug {
+  position: relative;
+  bottom: 230px;
 }
 .terkh:hover {
-  background-color: black;
+  background-color: #000000a6;
   opacity: 30%;
   cursor: pointer;
-  color: #fff;
-  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
   border-radius: 40px;
-  float: left;
 }
 .roadmap {
   background-image: url(./pinetour-img/Roadmap\ image.png);
   height: 1022px;
   width: 1440px;
 }
-.left{
-  width:513px;
-height: 640px;
-gap: 20px;
-opacity: 0px;
-display: flex;
+.hoerug {
+  position: relative;
+  top: 120px;
+  left: -1px;
+  gap: 10px;
 }
-.hover{
+.destination {
+  font-family: "Inter", serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50.83px;
+  text-align: center;
+}
+.pack {
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.2px;
+  text-align: center;
+  margin-top: 10px;
+}
+.tom-container {
+  width: 1200px;
+  height: 640px;
+  position: relative;
+  top: 180px;
+  left: 120px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.map-pins {
+  width: 647px;
+  height: 640px;
+  position: absolute;
+}
+.erdenet {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  top: 40px;
+  left: 800px;
+}
+.erdenet img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.ulaan {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  top: 147px;
+  left: 1047px;
+}
+.ulaan img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.tsetserleg {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  top: 104px;
+  left: 650px;
+}
+.tsetserleg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bayan {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  top: 280px;
+  left: 850px;
+}
+.bayan img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.hover-maps {
+  width: 513px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left {
+  width: 513px;
+  height: 640px;
+  gap: 20px;
+  opacity: 0px;
+}
+.city {
+  display: flex;
+  margin: 30px;
+  margin-top: -1px;
+}
+.hover {
   width: 513px;
   height: 112px;
   border-radius: 120px;
- background: rgba(238, 233, 217, 1);
- padding-top: 30px;
- padding-right: 30px;
- padding-bottom: 30px;
+  background: rgba(238, 233, 217, 1);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
-.hover2{
+.hover2 {
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background: rgba(139, 184, 193, 0.8);
- padding-top: 30px;
+  padding-top: 30px;
 }
-.hover3{
+.hover3 {
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background: rgba(170, 216, 215, 0.8);
- padding-top: 30px;
+  padding-top: 30px;
 }
-.hover4{
+.hover4 {
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background: rgba(139, 192, 189, 0.8);
- padding-top: 30px;
+  padding-top: 30px;
 }
-.hover5{
+.hover5 {
   width: 513px;
   height: 112px;
   border-radius: 120px;
   background: rgba(151, 204, 224, 0.8);
- padding-top: 30px;
+  padding-top: 30px;
 }
-.ub{
- font-family: "Inter", serif;
-font-size: 24px;
-font-weight: 500;
-line-height: 29.05px;
-display: flex;
-text-align: left;
-
-position: relative;
-left: 30px;
-}
-.bulgan{
-justify-content: space-between;
-font-family: "Inter", serif;
-font-size: 24px;
-font-weight: 500;
-line-height: 29.05px;
-text-align: left;
-}
-.arkhangai{
+.ub {
   font-family: "Inter", serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 29.05px;
   text-align: left;
+  position: relative;
+  left: 30px;
 }
-.tsagaan{
- font-family: "Inter", serif;
- font-size: 24px;
- font-weight: 500;
- line-height: 29.05px;
- text-align: left;
-}
-.khuvsgul-lake{
- font-family: "Inter", serif;
-font-size: 24px;
-font-weight: 500;
-line-height: 29.05px;
-text-align: left;
-}
-.location{
+.bulgan {
+  justify-content: space-between;
   font-family: "Inter", serif;
-font-size: 24px;
-font-weight: 500;
-line-height: 29.05px;
-text-align: left;
-font-size: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  position: relative;
+  text-align: left;
+  left: 30px;
 }
-p{
-  font-family: "Montserrat", serif;;
-  display: flex`;
-font-size: 12px;
-line-height: 14.63px;
-text-align: left;
-
+.arkhangai {
+  font-family: "Inter", serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  position: relative;
+  text-align: left;
+  left: 30px;
+}
+.tsagaan {
+  font-family: "Inter", serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  position: relative;
+  text-align: left;
+  left: 30px;
+}
+.khuvsgul-lake {
+  font-family: "Inter", serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  position: relative;
+  text-align: left;
+  left: 30px;
 }
 .pin1 {
-    width: 14px;
-    height: 14px;
-  }
-  
-  .pin1 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .pin2 {
-    width: 14px;
-    height: 14px;
-  }
-  
-  .pin2 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .pin3 {
-    width: 14px;
-    height: 14px;
-  }
-  
-  .pin3 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .pin4 {
-    width: 14px;
-    height: 14px;
-  }
-  
-  .pin4 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .pin5 {
-    width: 14px;
-    height: 14px;
-  }
-  
-  .pin5 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .right{
-    position: relative;
-    width: 37px;
-height: 16px;
-top: 18px;
-left: 8px;
-font-family: "Montserrat", serif;
+  width: 14px;
+  height: 14px;
+}
+.pin1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pin2 {
+  width: 14px;
+  height: 14px;
+}
+.pin2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pin3 {
+  width: 14px;
+  height: 14px;
+}
+.pin3 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pin4 {
+  width: 14px;
+  height: 14px;
+}
+.pin4 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pin5 {
+  width: 14px;
+  height: 14px;
+}
+.pin5 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.right {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  bottom: 640px;
+  left: 430px;
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  border-radius: 26px;
+  background-color: #f7f6f3;
+}
+.days {
+  position: relative;
+
+  top: 18px;
+  left: 6px;
+  gap: 0px;
+  opacity: 0px;
+}
+.hotuud {
+  font-family: "Montserrat", serif;
+  font-size: 12px;
+  line-height: 14.63px;
+  display: flex;
+}
+footer {
+  background-image: url(./pinetour-img/Price&Footer\ image.png);
+  width: 1440px;
+  height: 1120px;
+}
+.footer-ug{
+  width: 1440px;
+height: 85px;
+display: flex;
+flex-direction: column;
+position: relative;
+top: 40px;
+gap: 10px;
+}
+.deed-ug{
+  font-family: "Inter",serif;
+font-size: 42px;
+font-weight: 600;
+line-height: 50.83px;
+text-align: center;
+}
+.dood-ug{
+  font-family: "Inter",serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.2px;
+text-align: center;
+color: #18181BB2;
+}
+.gurvan-une {
+  position: relative;
+  width: 1200px;
+  height: 527px;
+  top: 104px;
+  left: 120px;
+  gap: 24px;
+  display: flex;
+}
+.price-lists {
+  width: 384px;
+  height: 527px;
+  background: #fafbfc;
+  border-radius: 40px;
+}
+.top{
+  display: flex;
+  width:384px;
+  height: 92px;
+  display: flex;
+  padding: 30px 24px 24px 24px;
+  gap: 16px;
+}
+.fav {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.package{
+  font-family: "Inter",serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.78px;
+padding-top: 5px;
+}
+.price{
+  width: 384px;
+height: 435px;
+padding: 0px 0px 0px 24px
+}
+.une{
+  font-family: "Montserrat", serif;
+font-size: 40px;
+font-weight: 600;
+line-height: 48.76px;
+}
+.unendoorh{
+  font-family: "Inter", serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+color: #919191;
+padding-top: 10px;
+}
+.dood5{
+  width: 336px;
+height: 180px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+padding-top: 40px;
+
+}
+.includes{
+  font-family: "Inter",serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.78px;
+padding-left: 30px;
+}
+.check{
+  width: 20px;
+  height: 20px;
+}
+.check img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.detail{
+  font-family: "Inter", serif;
 font-size: 14px;
-color: black;
-background: rgba(247, 246, 243, 1);
-border-radius: 24px;
-  border-width: 40px;
-;
+font-weight: 500;
+line-height: 16.94px;
+color: #3F4145;
+}
+.dood4{
+  display: flex;
+  gap: 10px;
+}
+.select-package{
+  width: 336px;
+height: 48px;
+display: flex;
+gap: 4px;
+border-radius: 50px;
+background-color:#A4D1E2;
+justify-content: center;
+align-items: center;
+font-family: "Inter",serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+position: relative;
+bottom: 100px;
+left: 25px;
+}
+.dood3{
+  display: flex;
+  position: relative;
+top: 370px;
+left: 130px;
+}
+.zuun2{
+  display: flex;
+  gap: 20px;
+}
+.fb{
+font-family: "Montserrat",serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.94px;
+color:#6972B5 ;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-left: 16px;
+}
+.fblogo{
+  width: 24px;
+height: 24px;
+}
+.fblogo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.ig{
+  font-family: "Montserrat",serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  color:#6972B5 ;
+  gap: 10px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+
+  }
+  .iglogo{
+    width: 24px;
+    height: 24px;
+  }
+  .iglogo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .huree{
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: #FAFBFC;
+    width:167px;
+    height: 44px;
+  }
+  .loo{
+    position: relative;
+    left: 700px;
   }
