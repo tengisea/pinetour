@@ -15,7 +15,7 @@ header {
   font-family: "Inter", serif;
   background-image: url(./pinetour-img/HeroImage.png);
   width: 1440px;
-  padding: 10px 20px 0px 20px;
+  padding: 30px 130px 0px 130px;
 }
 .pinelogo {
   width: 101px;
@@ -36,7 +36,6 @@ nav a {
   width: 100px;
   height: 22px;
   margin-inline: 24px;
-  position: relative;
 }
 .language {
   background-color: white;
@@ -74,6 +73,7 @@ nav a {
 .on {
   display: flex;
   font-size: 64px;
+  line-height: 64px;
   font-weight: 900px;
   color: #ffffffcc;
   justify-content: center;
@@ -192,12 +192,7 @@ nav a {
   position: relative;
   bottom: 230px;
 }
-.terkh:hover {
-  background-color: #000000a6;
-  opacity: 30%;
-  cursor: pointer;
-  border-radius: 40px;
-}
+
 .roadmap {
   background-image: url(./pinetour-img/Roadmap\ image.png);
   height: 1022px;
@@ -227,17 +222,10 @@ nav a {
 .tom-container {
   width: 1200px;
   height: 640px;
-  position: relative;
-  top: 180px;
-  left: 120px;
   display: flex;
-
+  gap: 20px;
+  flex-direction: column;
   justify-content: space-between;
-}
-.map-pins {
-  width: 647px;
-  height: 640px;
-  position: absolute;
 }
 .erdenet {
   width: 34px;
@@ -287,19 +275,6 @@ nav a {
   width: 100%;
   object-fit: cover;
 }
-.hover-maps {
-  width: 513px;
-  height: 640px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.left {
-  width: 513px;
-  height: 640px;
-  gap: 20px;
-  opacity: 0px;
-}
 .city {
   display: flex;
   margin: 30px;
@@ -307,6 +282,8 @@ nav a {
 }
 .hover {
   width: 513px;
+  display: flex;
+  justify-content: space-between;
   height: 112px;
   border-radius: 120px;
   background: rgba(238, 233, 217, 1);
@@ -317,76 +294,112 @@ nav a {
 .hover2 {
   width: 513px;
   height: 112px;
+  display: flex;
+  justify-content: space-between;
   border-radius: 120px;
   background: rgba(139, 184, 193, 0.8);
   padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 .hover3 {
   width: 513px;
   height: 112px;
+  display: flex;
+  justify-content: space-between;
   border-radius: 120px;
   background: rgba(170, 216, 215, 0.8);
   padding-top: 30px;
+ padding-right: 30px;
+padding-bottom: 30px;
 }
 .hover4 {
   width: 513px;
   height: 112px;
+  display: flex;
+  justify-content: space-between;
   border-radius: 120px;
   background: rgba(139, 192, 189, 0.8);
   padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 .hover5 {
   width: 513px;
   height: 112px;
+  display: flex;
+  justify-content: space-between;
   border-radius: 120px;
   background: rgba(151, 204, 224, 0.8);
   padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
-.ub {
+.zura {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: none;
+}
+.zura img {
+  height: 100%;
+  width: 100%;
+  background: cover;
+}
+.position1 {
+  left: 960px;
+  top: 90px;
+}
+.position2 {
+  left: 720px;
+}
+.position3 {
+  left: 570px;
+  top: 100px;
+}
+.position4 {
+  left: 540px;
+  bottom: 500px;
+}
+.position5 {
+  left: 700px;
+  bottom: 450px;
+}
+.hover:hover {
+  border: white 4px solid;
+}
+.hover2:hover {
+  border: white 4px solid;
+}
+.hover3:hover {
+  border: white 4px solid;
+}
+.hover4:hover {
+  border: white 4px solid;
+}
+.hover5:hover {
+  border: white 4px solid;
+}
+.hover:hover ~ .position1 {
+  display: block;
+}
+.hover2:hover ~ .position2 {
+  display: block;
+}
+.hover3:hover ~ .position3 {
+  display: block;
+}
+.hover4:hover ~ .position4 {
+  display: block;
+}
+.hover5:hover ~ .position5 {
+  display: block;
+}
+.deer {
   font-family: "Inter", serif;
   font-size: 24px;
   font-weight: 500;
-  line-height: 29.05px;
-  text-align: left;
-  position: relative;
-  left: 30px;
-}
-.bulgan {
-  justify-content: space-between;
-  font-family: "Inter", serif;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 29.05px;
-  position: relative;
-  text-align: left;
-  left: 30px;
-}
-.arkhangai {
-  font-family: "Inter", serif;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 29.05px;
-  position: relative;
-  text-align: left;
-  left: 30px;
-}
-.tsagaan {
-  font-family: "Inter", serif;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 29.05px;
-  position: relative;
-  text-align: left;
-  left: 30px;
-}
-.khuvsgul-lake {
-  font-family: "Inter", serif;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 29.05px;
-  position: relative;
-  text-align: left;
-  left: 30px;
+  margin-left: 30px;
 }
 .pin1 {
   width: 14px;
@@ -434,58 +447,49 @@ nav a {
   object-fit: cover;
 }
 .right {
-  position: relative;
   width: 52px;
   height: 52px;
-  bottom: 640px;
-  left: 430px;
   font-family: "Montserrat", serif;
   font-size: 14px;
   border-radius: 26px;
   background-color: #f7f6f3;
-}
-.days {
-  position: relative;
-
-  top: 18px;
-  left: 6px;
-  gap: 0px;
-  opacity: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 .hotuud {
   font-family: "Montserrat", serif;
   font-size: 12px;
   line-height: 14.63px;
-  display: flex;
 }
 footer {
   background-image: url(./pinetour-img/Price&Footer\ image.png);
   width: 1440px;
   height: 1120px;
 }
-.footer-ug{
+.footer-ug {
   width: 1440px;
-height: 85px;
-display: flex;
-flex-direction: column;
-position: relative;
-top: 40px;
-gap: 10px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+  gap: 10px;
 }
-.deed-ug{
-  font-family: "Inter",serif;
-font-size: 42px;
-font-weight: 600;
-line-height: 50.83px;
-text-align: center;
+.deed-ug {
+  font-family: "Inter", serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50.83px;
+  text-align: center;
 }
-.dood-ug{
-  font-family: "Inter",serif;
-font-size: 20px;
-font-weight: 500;
-line-height: 24.2px;
-text-align: center;
-color: #18181BB2;
+.dood-ug {
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: center;
+  color: #18181bb2;
 }
 .gurvan-une {
   position: relative;
@@ -502,9 +506,9 @@ color: #18181BB2;
   background: #fafbfc;
   border-radius: 40px;
 }
-.top{
+.top {
   display: flex;
-  width:384px;
+  width: 384px;
   height: 92px;
   display: flex;
   padding: 30px 24px 24px 24px;
@@ -520,123 +524,122 @@ color: #18181BB2;
   align-items: center;
   background-color: white;
 }
-.package{
-  font-family: "Inter",serif;
-font-size: 18px;
-font-weight: 500;
-line-height: 21.78px;
-padding-top: 5px;
-}
-.price{
-  width: 384px;
-height: 435px;
-padding: 0px 0px 0px 24px
-}
-.une{
-  font-family: "Montserrat", serif;
-font-size: 40px;
-font-weight: 600;
-line-height: 48.76px;
-}
-.unendoorh{
+.package {
   font-family: "Inter", serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 19.36px;
-color: #919191;
-padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  padding-top: 5px;
 }
-.dood5{
+.price {
+  width: 384px;
+  height: 435px;
+  padding: 0px 0px 0px 24px;
+}
+.une {
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+}
+.unendoorh {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #919191;
+  padding-top: 10px;
+}
+.dood5 {
   width: 336px;
-height: 180px;
-display: flex;
-flex-direction: column;
-gap: 15px;
-padding-top: 40px;
-
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 40px;
 }
-.includes{
-  font-family: "Inter",serif;
-font-size: 18px;
-font-weight: 500;
-line-height: 21.78px;
-padding-left: 30px;
+.includes {
+  font-family: "Inter", serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  padding-left: 30px;
 }
-.check{
+.check {
   width: 20px;
   height: 20px;
 }
-.check img{
+.check img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.detail{
+.detail {
   font-family: "Inter", serif;
-font-size: 14px;
-font-weight: 500;
-line-height: 16.94px;
-color: #3F4145;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #3f4145;
 }
-.dood4{
+.dood4 {
   display: flex;
   gap: 10px;
 }
-.select-package{
+.select-package {
   width: 336px;
-height: 48px;
-display: flex;
-gap: 4px;
-border-radius: 50px;
-background-color:#A4D1E2;
-justify-content: center;
-align-items: center;
-font-family: "Inter",serif;
-font-size: 16px;
-font-weight: 600;
-line-height: 20px;
-position: relative;
-bottom: 100px;
-left: 25px;
+  height: 48px;
+  display: flex;
+  gap: 4px;
+  border-radius: 50px;
+  background-color: #a4d1e2;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  position: relative;
+  bottom: 100px;
+  left: 25px;
 }
-.dood3{
+.dood3 {
   display: flex;
   position: relative;
-top: 370px;
-left: 130px;
+  top: 370px;
+  left: 130px;
 }
-.zuun2{
+.zuun2 {
   display: flex;
   gap: 20px;
 }
-.fb{
-font-family: "Montserrat",serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 21.94px;
-color:#6972B5 ;
-display: flex;
-text-align: center;
-justify-content: center;
-align-items: center;
-gap: 10px;
-margin-left: 16px;
+.fb {
+  font-family: "Montserrat", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  color: #6972b5;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 16px;
 }
-.fblogo{
+.fblogo {
   width: 24px;
-height: 24px;
+  height: 24px;
 }
 .fblogo img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.ig{
-  font-family: "Montserrat",serif;
+.ig {
+  font-family: "Montserrat", serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.94px;
-  color:#6972B5 ;
+  color: #6972b5;
   gap: 10px;
   display: flex;
   position: relative;
@@ -644,26 +647,25 @@ height: 24px;
   justify-content: center;
   align-items: center;
   margin-left: 16px;
-
-  }
-  .iglogo{
-    width: 24px;
-    height: 24px;
-  }
-  .iglogo img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .huree{
-    display: flex;
-    gap: 10px;
-    border-radius: 50px;
-    background-color: #FAFBFC;
-    width:167px;
-    height: 44px;
-  }
-  .loo{
-    position: relative;
-    left: 700px;
-  }
+}
+.iglogo {
+  width: 24px;
+  height: 24px;
+}
+.iglogo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.huree {
+  display: flex;
+  gap: 10px;
+  border-radius: 50px;
+  background-color: #fafbfc;
+  width: 167px;
+  height: 44px;
+}
+.loo {
+  position: relative;
+  left: 700px;
+}
