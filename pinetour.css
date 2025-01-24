@@ -213,6 +213,7 @@ nav a {
   background-image: url(./pinetour-img/Roadmap\ image.png);
   height: 1022px;
   width: 1440px;
+  position: relative;
 }
 .hoerug {
   position: relative;
@@ -241,6 +242,7 @@ nav a {
   justify-content: space-between;
   gap: 20px;
   margin-left: 100px;
+  position: relative;
 }
 .erdenet {
   width: 34px;
@@ -325,8 +327,8 @@ nav a {
   border-radius: 120px;
   background: rgba(170, 216, 215, 0.8);
   padding-top: 30px;
- padding-right: 30px;
-padding-bottom: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 .hover4 {
   width: 513px;
@@ -362,24 +364,24 @@ padding-bottom: 30px;
   background: cover;
 }
 .position1 {
-  left: 1200px;
-  top: 1740px;
+  left: 1000px;
+  top: 300px;
 }
 .position2 {
-  left: 1020px;
-  top: 1600px;
+  left: 820px;
+  top: 200px;
 }
 .position3 {
-  left: 770px;
-  top: 1700px;
+  left: 620px;
+  top: 250px;
 }
 .position4 {
-  left: 740px;
-  top: 1550px;
+  left: 720px;
+  top: 540px;
 }
 .position5 {
-  left: 900px;
-  top: 1520px;
+  left: 540px;
+  top: 90px;
 }
 .hover:hover {
   border: white 4px solid;
@@ -618,11 +620,10 @@ footer {
   bottom: 100px;
   left: 25px;
 }
-.price-lists:hover{
-  box-shadow: 8px 8px 0px 0px black,
-  -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
+.price-lists:hover {
+  box-shadow: 8px 8px 0px 0px black, -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
 }
-.price-lists:hover .select-package{
+.price-lists:hover .select-package {
   background-color: black;
   color: white;
 }
